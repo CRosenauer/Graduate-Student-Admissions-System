@@ -4,15 +4,11 @@ Written by: Chris Rosenauer and Yuchun He
 
 # Contents
 
- Overview
- 
- Additional Features
- 
- IDE Usage Notes
- 
- Compilation with Makefile
- 
- Future Improvements
+ * Overview
+ * Additional Features
+ * IDE Usage Notes
+ * Compilation with Makefile
+ * Future Improvements
 
 
 # Overview
@@ -27,16 +23,11 @@ The graduate student admissions system is currently capible of the following:
 
  * Storing domestic and international students in seperate amd mergable
    linked lists.
-   
  * Automatic student loading from text files.
- 
  * Manual insertion of students.
- 
  * Searching outputs of studentsbased on name, CGPA, research score,
    and application ID.
-   
  * Removing students by name.
- 
  * Removing the most and least qualified students from database.
 
 Once merged the system can output students based on CGPA and research
@@ -50,7 +41,6 @@ avoiding functionality including:
 
  * Automatically correcting mis-inputted countries and capitalization on
    names.
-   
  * Detecting misinpputed provinces for domestic students, and detecting
    missing data loaded from text files.
 
@@ -73,10 +63,8 @@ The included makefile includes the following commands:
 
  * make
    Compliles the program.
-
  * make clean
    Cleans compilation and executible.
-   
  * ./main
    Runs the program.
 
@@ -88,10 +76,8 @@ the future. The commands for debug mode are as follows:
 
  * make debug
    Compiles the debug
- 
  * make debugclean
    Cleans the debug compilation and executible.
-   
  * ./debug
    Runs the debug program.
    
