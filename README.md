@@ -1,26 +1,25 @@
-Graduate Student Admissions System
+# Graduate Student Admissions System
 Written by: Chris Rosenauer and Yuchun He
 
 
-TODO
-As most work in process projects, the graduate student admissions
-system is far from perfect. Here I have listed some of potential
-changes of the graduate student admissions system that would
-improve functionality, usability, or modification.
+# Contents
 
- * Automate testing.
- * Clean up unused code.
- * Generalize specific functions to be used with both the domestic
-   and international student linked list members.
- * Improve program modularity.
+ Overview
+ Additional Features
+ IDE Usage Notes
+ Compilation with Makefile
+ Future Improvements
 
 
-OVERVIEW
+# Overview
 
 This project is a graduate student admissions system written in C++
 with the purpose of organizing the admission of registered potential
-graduate students. The graduate student admissions system is capible
-of the following:
+graduate students. The graduate student admissions system was initially
+created as a school project at Simon Fraser University. The project is
+fully functional, and while I am not currently updating this project I
+intend to improve and expand upon it's functionality in the future.
+The graduate student admissions system is currently capible of the following:
 
  * Storing domestic and international students in seperate amd mergable
    linked lists.
@@ -34,12 +33,9 @@ of the following:
 Once merged the system can output students based on CGPA and research
 proficiency requirements.
 
-A side note is that that project was initially created as a school
-project at Simon Fraser University, however I intend to improve and
-expand functionality.
 
+# Additional Features
 
-ADDITIONAL FEATURES
 The graduate student admissions system includes some input correcting and
 avoiding functionality including:
 
@@ -49,7 +45,7 @@ avoiding functionality including:
    missing data loaded from text files.
 
 
-IDE USAGE NOTES
+# IDE Usage Notes
 
 Note that this program includes two main functions, one as part of the
 regular main file, one as part of the debugmain used for testing
@@ -58,7 +54,7 @@ comment out the debugmain file to ensure no dupicate main compliation
 errors.
 
 
-COMPLIATION WITH MAKEFILE
+# Compilation with Makefile
 
 The graduate student admissions system includes a makefile used for
 compiling the program, running the program, and cleaning object code
@@ -88,4 +84,18 @@ the future. The commands for debug mode are as follows:
    
  * ./debug
    Runs the debug program.
+   
+   
+# Future Improvements
+
+As most work in progess projects, the graduate student admissions
+system is far from perfect. Here I have listed some of potential
+changes of the graduate student admissions system that would
+improve functionality, usability, or modification.
+
+ * Automate testing.
+ * Clean up unused code.
+ * Generalize specific functions to be used with both the domestic
+   and international student linked list members.
+ * Improve program modularity.
    
