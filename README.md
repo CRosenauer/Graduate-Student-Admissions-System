@@ -5,9 +5,13 @@ Written by: Chris Rosenauer and Yuchun He
 # Contents
 
  Overview
+ 
  Additional Features
+ 
  IDE Usage Notes
+ 
  Compilation with Makefile
+ 
  Future Improvements
 
 
@@ -23,11 +27,16 @@ The graduate student admissions system is currently capible of the following:
 
  * Storing domestic and international students in seperate amd mergable
    linked lists.
+   
  * Automatic student loading from text files.
+ 
  * Manual insertion of students.
- * Searching outputs of students based on name, CGPA, research score,
+ 
+ * Searching outputs of studentsbased on name, CGPA, research score,
    and application ID.
+   
  * Removing students by name.
+ 
  * Removing the most and least qualified students from database.
 
 Once merged the system can output students based on CGPA and research
@@ -41,6 +50,7 @@ avoiding functionality including:
 
  * Automatically correcting mis-inputted countries and capitalization on
    names.
+   
  * Detecting misinpputed provinces for domestic students, and detecting
    missing data loaded from text files.
 
